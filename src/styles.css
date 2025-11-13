@@ -3,3 +3,31 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	display: grid;
+	grid-template-rows: 1fr 5fr 1fr;
+	min-height: 100vh;
+}
+
+header {
+	background-color: #05A8AA;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main {
+	background-color: #B8D5B8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer {
+	background-color: #D7B49E;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
