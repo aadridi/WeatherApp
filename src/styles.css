@@ -7,7 +7,7 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 	display: grid;
-	grid-template-rows: 1fr 5fr 1fr;
+	grid-template-rows: 1fr 7fr 1fr;
 	min-height: 100vh;
 }
 
@@ -21,9 +21,36 @@ header {
 main {
 	background-color: #B8D5B8;
 	display: flex;
-	justify-content: center;
+	justify-content: start;
+	align-items: center;
+	flex-direction: column;
+	gap: 10px;
+	padding: 20px 0px;
+}
+
+
+.main-header {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.cards-container {
+	display: flex;
 	align-items: center;
 }
+
+.card {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	height: 300px;
+	background-color: white;
+	border-radius: 16px;
+	padding: 16px 16px;
+	border: 8px dashed #D7B49E;
+}
+
 
 footer {
 	background-color: #D7B49E;
